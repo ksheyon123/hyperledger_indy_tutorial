@@ -34,7 +34,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     brew_install libsodium
     brew_install automake
     brew_install autoconf
-    brew_install openssl
+    brew_install openssl@1.1
     brew_install zeromq
     brew_install zmq
     export PKG_CONFIG_ALLOW_CROSS=1
